@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@mixin flex($flex-direction,$justifyC,$alignItems){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justifyC;
+    align-items: $alignItems;
+}
+
+body{
+    margin: 0;padding: 0;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+};main{padding: 50px 15px 10px 15px;}
+
+main section header{
+    font-size: 3em;
+    font-weight: 800;
+    margin: 5px 0;
+}main section span{
+    hyphens:auto;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0 5px;
+};main section h3{
+    margin: 5px 0;
+}
+
+span.highlight{background: rgba(0,0,0,0.05);}
+span.variable{background: rgba(255,127,0,0.5);}
+span.space{margin: 0 2px;}
