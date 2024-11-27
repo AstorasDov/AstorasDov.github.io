@@ -21,10 +21,11 @@ main section header{
     hyphens:auto;
     font-size: 1.1em;
     margin: 0;
-    padding: 0 5px;
 };main section h3{
     margin: 5px 0;
 }
+
+span.highlight,span.variable{padding: 0 5px;}
 
 span.highlight{background: rgba(0,0,0,0.05);}
 span.variable{background: rgba(255,127,0,0.5);}
