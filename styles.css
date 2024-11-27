@@ -26,7 +26,8 @@ main section h3 {
   margin: 5px 0;
 }
 
-span.highlight, span.variable {
+span.highlight, span.variable,
+span.operation, span.quantity {
   padding: 0 5px;
 }
 
@@ -36,6 +37,14 @@ span.highlight {
 
 span.variable {
   background: rgba(255, 127, 0, 0.5);
+}
+
+span.operation {
+  background: rgba(0, 127, 255, 0.5);
+}
+
+span.quantity {
+  background: rgba(0, 255, 0, 0.5);
 }
 
 span.space {

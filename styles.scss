@@ -24,8 +24,11 @@ main section header{
     margin: 5px 0;
 }
 
-span.highlight,span.variable{padding: 0 5px;}
+span.highlight,span.variable,
+span.operation,span.quantity{padding: 0 5px;}
 
 span.highlight{background: rgba(0,0,0,0.05);}
 span.variable{background: rgba(255,127,0,0.5);}
+span.operation{background: rgba(0,127,255,0.5);}
+span.quantity{background: rgba(0,255,0,0.5);}
 span.space{margin: 0 2px;}
